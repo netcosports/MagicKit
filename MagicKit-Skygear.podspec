@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Fork of MagicKit with fixes for errors and warnings present in later versions of Clang and updated libmagic sources'
   s.homepage = 'https://github.com/SkygearIO/MagicKit'
   s.author   = { "Oursky Ltd." => "hello@oursky.com" }
-  s.source   = { :git => 'https://github.com/SkygearIO/MagicKit.git',
+  s.source   = { :git => 'https://github.com/netcosports/MagicKit.git',
                  :tag => s.version.to_s }
 
   s.ios.deployment_target = '5.0'
